@@ -1,0 +1,86 @@
+body{
+	background-color: grey;
+}
+
+.container{
+	width: 70% ;
+	margin: auto;
+	background-color: white;
+}
+.header{
+	 color: red;
+	 background-color: blue;
+}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	background: black;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	font-family: algerian;
+}
+ul li{
+	color: #fff;
+	background: black;
+	display: inline-block;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+}
+li a{
+	color: #fff;
+}
+ul li:hover{
+	background: red;
+	cursor: pointer;
+}
+ul li ul{
+	background: black;
+	visibility: hidden;
+	opacity: none;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 10px;
+	left: 0;
+	display: none;
+}
+ul li:hover > ul,
+ul li ul:hover{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+ul li ul li{
+	clear: both;
+	width: 100%;
+}
+img{
+	margin-left: 10px;
+	margin-top: 1rem;
+}
+h2{
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: algerian;
+}
+.isi{
+	border: 3px solid black;
+	margin: 20px 20px 20px 20px;
+	position: static;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+p{
+	padding: 3px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+.kontak{
+	margin-top: 5%;
+	margin-left: 20px;
+}

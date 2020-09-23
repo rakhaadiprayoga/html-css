@@ -1,0 +1,89 @@
+body{
+	background-color: grey;
+}
+h1{
+	font-family: algerian;
+}
+.container{
+	width: 80vw;
+	margin: auto;
+	background-color: white;
+}
+.header{
+	 color: black;
+}
+.judul{
+	margin-bottom: 60px;
+}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	background: darkorange;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+ul li{
+	color: #fff;
+	background: darkorange;
+	display: inline-block;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+}
+li a{
+	color: #fff;
+}
+ul li:hover{
+	background: red;
+	cursor: pointer;
+}
+ul li ul{
+	background: orange;
+	visibility: hidden;
+	opacity: none;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 10px;
+	left: 0;
+	display: none;
+}
+ul li:hover > ul,
+ul li ul:hover{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+ul li ul li{
+	clear: both;
+	width: 100%;
+}
+nav{
+	clear: both;
+}
+img{
+	margin-left: 20px;
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+h2{
+	margin-left: 20px;
+}
+.isi{
+	border: 3px solid black;
+	margin: 10px 20px 10px 20px;
+	position: static;
+}
+p{
+	margin-left: 30px;
+	padding: 3px;
+	margin-top: 10px;
+}
+table{
+	margin-left: 20px;
+}
+.footer{
+	text-align: center;
+	font-size: 18px;
+}
